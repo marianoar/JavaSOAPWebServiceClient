@@ -28,7 +28,6 @@ public class Main {
         // SOAP Body
         SOAPBody soapBody = envelope.getBody();
         
-        
         SOAPElement soapBodyElem = soapBody.addChildElement("MetodoAEjecutar", myNamespace);
           // defino variables 
           SOAPElement soapBodyElem1 = soapBodyElem.addChildElement("endpoint", myNamespace);
